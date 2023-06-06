@@ -1,0 +1,28 @@
+---
+title: LeOS
+---
+import Banner from "components/banner";
+import Features from "components/features";
+import Contributors from "components/contributors";
+
+<Banner />
+
+<Features
+  features={[
+    {
+      icon: "/icons/eye-slash-solid.svg",
+      title: "No Telemetry",
+      text: "No data collection or transmission No unwanted features, ads, distractions, or interference."
+    },
+    {
+      icon: "/icons/hand-right-outline.svg",
+      title: "No Gapps",
+      text: `No tracking software included, and Google apps cannot run on it.`
+    },
+    {
+      icon: "/icons/MicroG.svg",
+      title: "MicroG Core",
+      text: `<a href="https://microg.org">MicroG</a> is a privacy respecting and open source Google services core. LeOS modified it to make it more power efficient.`
+    }
+  ]}
+/>

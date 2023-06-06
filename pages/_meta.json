@@ -1,0 +1,35 @@
+{
+  "*": {
+    "type": "page"
+  },
+  "index": {
+    "title": "Home",
+    "display": "hidden"
+  },
+  "docs": {
+    "title": "Docs"
+  },
+  "installation": {
+    "title": "Installation",
+    "display": "hidden"
+  },
+  "about": {
+    "title": "About"
+  },
+  "links": {
+    "title": "Links",
+    "type": "menu",
+    "items": {
+      "github": {
+        "title": "Github",
+        "href": "https://github.com/leos-gsi",
+        "newWindow": "true"
+      },
+      "website": {
+        "title": "Website",
+        "href": "https://leos-gsi.de",
+        "newWindow": "true"
+      }
+    }
+  }
+}
